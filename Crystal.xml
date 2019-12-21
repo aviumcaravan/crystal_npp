@@ -2,7 +2,17 @@
 	Crystal Notepad++ theme
 	by wnowicki04 ( https://github.com/wnowicki04 )
 	alt: wiktornowicki ( https://github.com/wiktornowicki )
-	supported languages: C++(x), Java(x), Visual Basic(x), CSS(x), HTML(x), XML(x), JS (embedded) (x), JS (x) (to be expanded)
+	supported languages: 
+		::C++;
+		::Java;
+		::Visual Basic;
+		::CSS;
+		::HTML;
+		::XML;
+		::JS (embedded);
+		::JS;
+		::INF/INI/MSSTYLES;
+		::C;
 -->
 <NotepadPlus>
     <LexerStyles>
@@ -111,13 +121,13 @@
             <WordsStyle name="NUMBER" styleID="46" fgColor="D9FFB3" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
             <WordsStyle name="DOUBLESTRING" styleID="48" fgColor="FFB3FF" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
             <WordsStyle name="SINGLESTRING" styleID="49" fgColor="FFB3FF" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
-			<WordsStyle name="REGEX" styleID="52" fgColor="F0F0F0" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
-			<WordsStyle name="COMMENTLINE" styleID="43" fgColor="5F5F5F" bgColor="212121" fontName="Consolas" fontStyle="2" fontSize="12" />
-			<WordsStyle name="COMMENTDOC" styleID="44" fgColor="5F5F5F" bgColor="212121" fontName="Consolas" fontStyle="2" fontSize="12" />
-			<WordsStyle name="SYMBOLS" styleID="50" fgColor="FFFFB3" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
-			<WordsStyle name="KEYWORD" styleID="47" fgColor="D9B3FF" bgColor="212121" fontName="Consolas" fontStyle="1" keywordClass="instre1" fontSize="12" />
+            <WordsStyle name="REGEX" styleID="52" fgColor="F0F0F0" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
+            <WordsStyle name="COMMENTLINE" styleID="43" fgColor="5F5F5F" bgColor="212121" fontName="Consolas" fontStyle="2" fontSize="12" />
+            <WordsStyle name="COMMENTDOC" styleID="44" fgColor="5F5F5F" bgColor="212121" fontName="Consolas" fontStyle="2" fontSize="12" />
+            <WordsStyle name="SYMBOLS" styleID="50" fgColor="FFFFB3" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
+            <WordsStyle name="KEYWORD" styleID="47" fgColor="D9B3FF" bgColor="212121" fontName="Consolas" fontStyle="1" keywordClass="instre1" fontSize="12" />
         </LexerType>
-		<LexerType name="javascript.js" desc="JavaScript">
+        <LexerType name="javascript.js" desc="JavaScript" ext="">
             <WordsStyle name="DEFAULT" styleID="11" fgColor="F0F0F0" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
             <WordsStyle name="COMMENT" styleID="1" fgColor="5F5F5F" bgColor="212121" fontName="Consolas" fontStyle="2" fontSize="12" />
             <WordsStyle name="COMMENT LINE" styleID="2" fgColor="5F5F5F" bgColor="212121" fontName="Consolas" fontStyle="2" fontSize="12" />
@@ -127,18 +137,45 @@
             <WordsStyle name="COMMENT DOC KEYWORD ERROR" styleID="18" fgColor="5F5F5F" bgColor="212121" fontName="Consolas" fontStyle="2" fontSize="12" />
             <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="D9B3FF" bgColor="212121" fontName="Consolas" fontStyle="1" keywordClass="instre1" fontSize="12" />
             <WordsStyle name="TYPE WORD" styleID="16" fgColor="B2B2FF" bgColor="212121" fontName="Consolas" fontStyle="1" keywordClass="type1" fontSize="12" />
-			<WordsStyle name="WINDOW INSTRUCTION" styleID="19" fgColor="D9B3FF" bgColor="212121" fontName="Consolas" fontStyle="1" keywordClass="instre2" fontSize="12" />
+            <WordsStyle name="WINDOW INSTRUCTION" styleID="19" fgColor="D9B3FF" bgColor="212121" fontName="Consolas" fontStyle="1" keywordClass="instre2" fontSize="12" />
             <WordsStyle name="NUMBER" styleID="4" fgColor="D9FFB3" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
             <WordsStyle name="STRING" styleID="6" fgColor="FFB3FF" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
-			<WordsStyle name="STRINGRAW" styleID="20" fgColor="FFB3FF" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
+            <WordsStyle name="STRINGRAW" styleID="20" fgColor="FFB3FF" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
             <WordsStyle name="CHARACTER" styleID="7" fgColor="FFB3FF" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
             <WordsStyle name="OPERATOR" styleID="10" fgColor="FFFFB3" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
             <WordsStyle name="VERBATIM" styleID="13" fgColor="F0F0F0" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
             <WordsStyle name="REGEX" styleID="14" fgColor="F0F0F0" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
-		</LexerType>
+        </LexerType>
+        <LexerType name="ini" desc="ini file" ext="">
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="F0F0F0" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12">nvarchar uniqueidentifier</WordsStyle>
+            <WordsStyle name="COMMENT" styleID="1" fgColor="5F5F5F" bgColor="212121" fontName="Consolas" fontStyle="2" fontSize="12" />
+            <WordsStyle name="SECTION" styleID="2" fgColor="B2FFFF" bgColor="212121" fontName="Consolas" fontStyle="1" fontSize="12">ooooo</WordsStyle>
+            <WordsStyle name="ASSIGNMENT" styleID="3" fgColor="FFB2B2" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
+            <WordsStyle name="DEFVAL" styleID="4" fgColor="B2FFB2" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
+        </LexerType>
+        <LexerType name="c" desc="C" ext="">
+            <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="B2B2B2" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="F0F0F0" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="5F5F5F" bgColor="212121" fontName="Consolas" fontStyle="2" fontSize="12">@Override @SuppressWarnings @SafeVarargs @FunctionalInterface @Retention @Documented @Target @Inherited @Repeatable @Deprecated</WordsStyle>
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="5F5F5F" bgColor="212121" fontName="Consolas" fontStyle="2" fontSize="12">toto titi</WordsStyle>
+            <WordsStyle name="COMMENT DOC" styleID="3" fgColor="5F5F5F" bgColor="212121" fontName="Consolas" fontStyle="2" fontSize="12" />
+            <WordsStyle name="COMMENT LINE DOC" styleID="15" fgColor="5F5F5F" bgColor="212121" fontName="Consolas" fontStyle="2" fontSize="12" />
+            <WordsStyle name="COMMENT DOC KEYWORD" styleID="17" fgColor="5F5F5F" bgColor="212121" fontName="Consolas" fontStyle="2" fontSize="12" />
+            <WordsStyle name="COMMENT DOC KEYWORD ERROR" styleID="18" fgColor="5F5F5F" bgColor="212121" fontName="Consolas" fontStyle="2" fontSize="12" />
+            <WordsStyle name="PREPROCESSOR COMMENT" styleID="23" fgColor="5F5F5F" bgColor="212121" fontName="Consolas" fontStyle="2" fontSize="12" />
+            <WordsStyle name="PREPROCESSOR COMMENT DOC" styleID="24" fgColor="5F5F5F" bgColor="212121" fontName="Consolas" fontStyle="2" fontSize="12" />
+            <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="D9B3FF" bgColor="212121" fontName="Consolas" fontStyle="1" keywordClass="instre1" fontSize="12" />
+            <WordsStyle name="TYPE WORD" styleID="16" fgColor="B2B2FF" bgColor="212121" fontName="Consolas" fontStyle="1" keywordClass="type1" fontSize="12" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="D9FFB3" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12">if else for while</WordsStyle>
+            <WordsStyle name="STRING" styleID="6" fgColor="FFB3FF" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12">bool long int char</WordsStyle>
+            <WordsStyle name="CHARACTER" styleID="7" fgColor="FFB3FF" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="FFFFB3" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
+            <WordsStyle name="VERBATIM" styleID="13" fgColor="F0F0F0" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
+            <WordsStyle name="REGEX" styleID="14" fgColor="F0F0F0" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
+        </LexerType>
     </LexerStyles>
     <GlobalStyles>
-        <WidgetStyle name="Global override" styleID="0" fgColor="F8F8F2" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
+        <WidgetStyle name="Global override" styleID="0" fgColor="F8F8F2" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="10" />
         <WidgetStyle name="Smart HighLighting" styleID="29" bgColor="B2B2FF" fgColor="000000" fontSize="11" fontStyle="0" />
         <WidgetStyle name="Default Style" styleID="32" fgColor="D4D4D4" bgColor="212121" fontName="Consolas" fontSize="12" fontStyle="0" />
         <WidgetStyle name="Indent guideline style" styleID="37" fgColor="454545" bgColor="212121" fontSize="" fontStyle="1" />

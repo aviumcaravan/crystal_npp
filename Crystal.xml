@@ -13,6 +13,8 @@
 		::JS;
 		::INF/INI/MSSTYLES;
 		::C;
+		::Assembly;
+		::Pascal;
 -->
 <NotepadPlus>
     <LexerStyles>
@@ -173,6 +175,22 @@
             <WordsStyle name="VERBATIM" styleID="13" fgColor="F0F0F0" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
             <WordsStyle name="REGEX" styleID="14" fgColor="F0F0F0" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
         </LexerType>
+		<LexerType name="asm" desc="Assembly" ext="">
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="F0F0F0" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="5F5F5F" bgColor="212121" fontName="Consolas" fontStyle="2" fontSize="12" />
+            <WordsStyle name="NUMBER" styleID="2" fgColor="D9FFB3" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
+			<WordsStyle name="STRING" styleID="3" fgColor="FFB3FF" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
+			<WordsStyle name="OPERATOR" styleID="4" fgColor="FFFFB3" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
+			<WordsStyle name="IDENTIFIER" styleID="5" fgColor="F0F0F0" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
+			<WordsStyle name="CPU INSTRUCTION" styleID="6" fgColor="D9B3FF" bgColor="212121" fontName="Consolas" fontStyle="1" keywordClass="instre1" fontSize="12" />
+			<WordsStyle name="MATH INSTRUCTION" styleID="7" fgColor="D9B3FF" bgColor="212121" fontName="Consolas" fontStyle="1" keywordClass="instre2" fontSize="12" />
+			<WordsStyle name="REGISTER" styleID="8" fgColor="B2B2FF" bgColor="212121" fontName="Consolas" fontStyle="1" keywordClass="type1" fontSize="12" />
+			<WordsStyle name="DIRECTIVE" styleID="9" fgColor="B2B2B2" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" keywordClass="type2" />
+			<WordsStyle name="DIRECTIVE OPERAND" styleID="10" fgColor="D9B3FF" bgColor="212121" fontName="Consolas" fontStyle="1" keywordClass="type3" fontSize="12" />
+			<WordsStyle name="COMMENT BLOCK" styleID="11" fgColor="5F5F5F" bgColor="212121" fontName="Consolas" fontStyle="2" fontSize="12" />
+			<WordsStyle name="CHARACTER" styleID="12" fgColor="FFB3FF" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
+			<WordsStyle name="EXT INSTRUCTION" styleID="14" fgColor="B2B2B2" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" keywordClass="type4" />
+		</LexerType>
     </LexerStyles>
     <GlobalStyles>
         <WidgetStyle name="Global override" styleID="0" fgColor="F8F8F2" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="10" />

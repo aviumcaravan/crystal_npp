@@ -1,4 +1,4 @@
-**INFO**
+# INFO
 
 This repository will contain only the Crystal theme for Notepad++ and will be occasionally updated. Besides that, it might be converted into a light theme (as an external file).
 

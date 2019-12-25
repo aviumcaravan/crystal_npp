@@ -215,7 +215,7 @@
         <WidgetStyle name="Default Style" styleID="32" fgColor="D4D4D4" bgColor="212121" fontName="Consolas" fontSize="12" fontStyle="0" />
         <WidgetStyle name="Indent guideline style" styleID="37" fgColor="454545" bgColor="212121" fontSize="" fontStyle="1" />
         <WidgetStyle name="Line number margin" styleID="33" fgColor="F0F0F0" bgColor="212121" fontName="Consolas" fontSize="10" fontStyle="0" />
-        <WidgetStyle name="Current line background colour" styleID="0" bgColor="303030" fgColor="000000" fontSize="" fontStyle="0" />
+        <WidgetStyle name="Current line background colour" styleID="0" bgColor="212121" fgColor="000000" fontSize="" fontStyle="0" />
         <WidgetStyle name="Tags match highlighting" styleID="27" fgColor="000000" bgColor="A0A0FF" fontStyle="0" fontSize="" />
         <WidgetStyle name="Brace highlight style" styleID="34" fgColor="FFFFB3" bgColor="212121" fontStyle="1" fontSize="" />
         <WidgetStyle name="Bad brace colour" styleID="35" fgColor="FFB3B3" bgColor="000000" fontSize="" fontStyle="0" />

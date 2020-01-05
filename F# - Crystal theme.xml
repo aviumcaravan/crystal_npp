@@ -1,0 +1,36 @@
+<NotepadPlus>
+    <UserLang name="F#" ext="fs fsi fsx ml mli mlx">
+        <Settings>
+            <Global caseIgnored="no"/>
+            <TreatAsSymbol comment="no" commentLine="no"/>
+            <Prefix words1="no" words2="no" words3="no" words4="no"/>
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">"00"00</Keywords>
+            <Keywords name="Folder+"/>
+            <Keywords name="Folder-"/>
+            <Keywords name="Operators">- % ( ) * . : ; [ ] | + &lt; = &gt;</Keywords>
+            <Keywords name="Comment">1(* 2*) 0// 0///</Keywords>
+            <Keywords name="Words1">abstract and as assert base begin class default delegate do done downcast downto elif else end exception extern false finally for fun function if in inherit inline interface internal lazy let match member module mutable namespace new not null of open or override private public rec return static struct then to true try type upcast use val void when while with yield</Keywords>
+            <Keywords name="Words2">asr land lor lsl lsr lxor mod sig</Keywords>
+            <Keywords name="Words3">atomic break checked component const constraint constructor continue eager event external fixed functor global include method mixin object parallel process protected pure sealed tailcall trait virtual volatile</Keywords>
+            <Keywords name="Words4">bool byte sbyte int16 uint16 int uint int64 uint64 char string decimal unit void</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="F0F0F0" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="F0F0F0" bgColor="212121" fontName="" fontStyle="0"/>
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="F0F0F0" bgColor="212121" fontName="" fontStyle="0"/>
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="D9B3FF" bgColor="212121" fontName="Consolas" fontStyle="1" fontSize="12" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="D9B3FF" bgColor="212121" fontName="Consolas" fontStyle="1" fontSize="12" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="D9B3FF" bgColor="212121" fontName="Consolas" fontStyle="1" fontSize="12" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="B2B2FF" bgColor="212121" fontName="Consolas" fontStyle="1" fontSize="12" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="5F5F5F" bgColor="212121" fontName="Consolas" fontStyle="2" fontSize="12" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="5F5F5F" bgColor="212121" fontName="Consolas" fontStyle="2" fontSize="12" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="D9FFB3" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="FFFFB3" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="FFB3FF" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="F0F0F0" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="F0F0F0" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>

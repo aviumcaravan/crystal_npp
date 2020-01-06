@@ -245,6 +245,16 @@
             <WordsStyle name="VERBATIM" styleID="13" fgColor="F0F0F0" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
             <WordsStyle name="REGEX" styleID="14" fgColor="F0F0F0" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
 		</LexerType>
+		<LexerType name="batch" desc="Batch" ext="">
+			<WordsStyle name="DEFAULT" styleID="0" fgColor="F0F0F0" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
+			<WordsStyle name="COMMENT" styleID="1" fgColor="5F5F5F" bgColor="212121" fontName="Consolas" fontStyle="2" fontSize="12" />
+			<WordsStyle name="KEYWORDS" styleID="2" fgColor="D9B3FF" bgColor="212121" fontName="Consolas" fontStyle="1" keywordClass="instre1" fontSize="12" />
+			<WordsStyle name="LABEL" styleID="3" fgColor="FFFFB3" bgColor="212121" fontName="Consolas" fontStyle="1" fontSize="12" />
+			<WordsStyle name="HIDE SYBOL" styleID="4" fgColor="B2B2FF" bgColor="212121" fontName="Consolas" fontStyle="1" fontSize="12" />
+			<WordsStyle name="COMMAND" styleID="5" fgColor="B3D9FF" bgColor="212121" fontName="Consolas" fontStyle="1" fontSize="12" />
+			<WordsStyle name="VARIABLE" styleID="6" fgColor="D9FFB3" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
+			<WordsStyle name="OPERATOR" styleID="7" fgColor="FFFFB3" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
+		</LexerType>
     </LexerStyles>
     <GlobalStyles>
         <WidgetStyle name="Global override" styleID="0" fgColor="F8F8F2" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />

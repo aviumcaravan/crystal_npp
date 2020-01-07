@@ -18,6 +18,7 @@
 		::PowerShell script;
 		::Windows Registry key;
 		::C#;
+		::Batch;
 -->
 <NotepadPlus>
     <LexerStyles>

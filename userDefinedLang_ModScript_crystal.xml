@@ -1,0 +1,37 @@
+<!--
+	ModScript custom language (Crystal theme) definition by wiktornowicki
+	Language by Kaczo24: https://github.com/Kaczo24/ModScript
+	
+	
+	NOTICE: Keep in mind that this language is in development, and therefore, the design and general structure of this XML file might change overtime.
+-->
+<NotepadPlus>
+	<UserLang name="ModScript" ext="ms">
+		<Settings>
+			<Global caseIgnored="no" />
+			<TreatAsSymbol comment="no" commentLine="no" />
+			<Prefix words1="no" />
+		</Settings>
+		<KeywordLists>
+			<Keywords name="Delimiters">"00"00</Keywords>
+			<Keywords name="Folder+" />
+			<Keywords name="Folder-" />
+			<Keywords name="Operators">+ - * / ^ % [ ] ( ) . : ; & | ! = &lt; &gt;</Keywords>
+			<Keywords name="Comment"></Keywords>
+			<Keywords name="Words1">true false function let if else while</Keywords>
+			<Keywords name="Words2">Print Printl Input InputN Sqrt ReadText ReadLines WriteText WriteLines GetType ParseNumber</Keywords>
+		</KeywordLists>
+		<Styles>
+			<WordsStyle name="DEFAULT" styleID="11" fgColor="F0F0F0" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
+			<WordsStyle name="FOLDEROPEN" styleID="12" fgColor="F0F0F0" bgColor="212121" fontName="" fontStyle="0" />
+			<WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="F0F0F0" bgColor="212121" fontName="" fontStyle="0" />
+			<WordsStyle name="KEYWORD1" styleID="5" fgColor="D9B3FF" bgColor="212121" fontName="Consolas" fontStyle="1" fontSize="12" />
+			<WordsStyle name="KEYWORD2" styleID="6" fgColor="B3E5FF" bgColor="212121" fontName="Consolas" fontStyle="1" fontSize="12" />
+			<WordsStyle name="OPERATOR" styleID="10" fgColor="FFFFB3" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
+			<WordsStyle name="DELIMINER1" styleID="14" fgColor="B2B2FF" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
+			<WordsStyle name="DELIMINER2" styleID="15" fgColor="F0F0F0" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
+			<WordsStyle name="DELIMINER3" styleID="16" fgColor="F0F0F0" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
+			<WordsStyle name="NUMBER" styleID="4" fgColor="D9FFB3" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
+		</Styles>
+	</UserLang>
+</NotepadPlus>

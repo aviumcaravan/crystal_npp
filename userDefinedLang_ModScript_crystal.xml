@@ -17,7 +17,7 @@
 			<Keywords name="Folder+" />
 			<Keywords name="Folder-" />
 			<Keywords name="Operators">+ - * / ^ % [ ] ( ) . : ; & | ! = &lt; &gt;</Keywords>
-			<Keywords name="Comment"></Keywords>
+			<Keywords name="Comment">1/* 2*/ 0// 0///</Keywords>
 			<Keywords name="Words1">true false function let if else while</Keywords>
 			<Keywords name="Words2">Print Printl Input InputN Sqrt ReadText ReadLines WriteText WriteLines GetType ParseNumber</Keywords>
 		</KeywordLists>
@@ -32,6 +32,8 @@
 			<WordsStyle name="DELIMINER2" styleID="15" fgColor="F0F0F0" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
 			<WordsStyle name="DELIMINER3" styleID="16" fgColor="F0F0F0" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
 			<WordsStyle name="NUMBER" styleID="4" fgColor="D9FFB3" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
+	        <WordsStyle name="COMMENT" styleID="1" fgColor="5F5F5F" bgColor="212121" fontName="Consolas" fontStyle="2" fontSize="12" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="5F5F5F" bgColor="212121" fontName="Consolas" fontStyle="2" fontSize="12" />
 		</Styles>
 	</UserLang>
 </NotepadPlus>

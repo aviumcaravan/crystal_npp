@@ -25,6 +25,7 @@
 		::Swift;
 		::SQL;
 		::PHP;
+		::RC;
 -->
 <NotepadPlus>
     <LexerStyles>
@@ -349,6 +350,26 @@
             <WordsStyle name="COMMENT" styleID="124" fgColor="5F5F5F" bgColor="212121" fontName="Consolas" fontStyle="2" fontSize="12" />
             <WordsStyle name="COMMENTLINE" styleID="125" fgColor="5F5F5F" bgColor="212121" fontName="Consolas" fontStyle="2" fontSize="12" />
 			<WordsStyle name="OPERATOR" styleID="127" fgColor="FFFFB3" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
+	    </LexerType>
+		<LexerType name="rc" desc="RC" ext="">
+            <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="B2B2B2" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="F0F0F0" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="5F5F5F" bgColor="212121" fontName="Consolas" fontStyle="2" fontSize="12" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="5F5F5F" bgColor="212121" fontName="Consolas" fontStyle="2" fontSize="12" />
+            <WordsStyle name="COMMENT DOC" styleID="3" fgColor="5F5F5F" bgColor="212121" fontName="Consolas" fontStyle="2" fontSize="12" />
+            <WordsStyle name="COMMENT LINE DOC" styleID="15" fgColor="5F5F5F" bgColor="212121" fontName="Consolas" fontStyle="2" fontSize="12" />
+            <WordsStyle name="COMMENT DOC KEYWORD" styleID="17" fgColor="5F5F5F" bgColor="212121" fontName="Consolas" fontStyle="2" fontSize="12" />
+            <WordsStyle name="COMMENT DOC KEYWORD ERROR" styleID="18" fgColor="5F5F5F" bgColor="212121" fontName="Consolas" fontStyle="2" fontSize="12" />
+            <WordsStyle name="PREPROCESSOR COMMENT" styleID="23" fgColor="5F5F5F" bgColor="212121" fontName="Consolas" fontStyle="2" fontSize="12" />
+            <WordsStyle name="PREPROCESSOR COMMENT DOC" styleID="24" fgColor="5F5F5F" bgColor="212121" fontName="Consolas" fontStyle="2" fontSize="12" />
+            <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="D9B3FF" bgColor="212121" fontName="Consolas" fontStyle="1" keywordClass="instre1" fontSize="12" />
+            <WordsStyle name="TYPE WORD" styleID="16" fgColor="B2B2FF" bgColor="212121" fontName="Consolas" fontStyle="1" keywordClass="type1" fontSize="12" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="D9FFB3" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
+            <WordsStyle name="STRING" styleID="6" fgColor="FFB3FF" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
+            <WordsStyle name="CHARACTER" styleID="7" fgColor="FFB3FF" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="FFFFB3" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
+            <WordsStyle name="VERBATIM" styleID="13" fgColor="F0F0F0" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
+            <WordsStyle name="REGEX" styleID="14" fgColor="F0F0F0" bgColor="212121" fontName="Consolas" fontStyle="0" fontSize="12" />
 		</LexerType>
     </LexerStyles>
     <GlobalStyles>

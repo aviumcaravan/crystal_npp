@@ -1,4 +1,4 @@
-<span style="@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap'); font-family: 'Raleway';">	
+<div style="@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap'); font-family: 'Raleway';">	
 
 # INFO
 
@@ -28,4 +28,4 @@ Send me an e-mail: [Mail](mailto:wnowicki04_git@o2.pl)
 **OR**
 Just leave an issue, the button is on the top bar right next to the **Code** button!
 
-</span>
+</div>

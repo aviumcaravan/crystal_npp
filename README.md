@@ -1,5 +1,3 @@
-<div style="@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap'); font-family: 'Raleway';">	
-
 # INFO
 
 ![](https://github.com/wiktornowicki/crystal_npp/blob/master/crystal_bg.png)
@@ -27,5 +25,3 @@ If you need any help, feel free to explore the wiki: [Wiki](https://github.com/w
 Send me an e-mail: [Mail](mailto:wnowicki04_git@o2.pl)
 **OR**
 Just leave an issue, the button is on the top bar right next to the **Code** button!
-
-</div>

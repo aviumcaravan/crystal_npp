@@ -18,3 +18,9 @@ For the list of supported languages, refer to the initial comment doc in the Cry
 	:: and, of course, you - for using some weird teen's pastel-coloured theme! Thank you all so much!
 	
 This project is absolutely open-source, just like N++ itself. Feel free to tamper with all this, however I'd prefer if you forked the repo. I really don't feel like fixing your mess.
+
+If you need any help, feel free to explore the wiki: [Wiki](https://github.com/wiktornowicki/crystal_npp/wiki)
+## OR
+Send me an e-mail: [Mail](mailto:wnowicki04_git@o2.pl)
+## OR
+Just leave an issue, the button is on the top bar right next to the **Code** button!

@@ -9,7 +9,7 @@ For the list of supported languages, refer to the initial comment doc in the Cry
 ## Other supported languages:
 	:: F#;
 	:: ModScript;
-	:: Visual Basic .NET (WIP).
+	:: Visual Basic .NET.
 
 ## People to be credited:
 	:: Kaczo24 - for creation of ModScript and helping me out with the custom language design;

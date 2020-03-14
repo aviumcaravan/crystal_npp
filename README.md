@@ -14,7 +14,7 @@ For the list of supported languages, refer to the initial comment doc in the Cry
 ## People to be credited:
 	:: Kaczo24 - for creation of ModScript and helping me out with the custom language design;
 	:: Notepad++ dev(s) - for creation of this amazing tool;
-	:: IDK who created the custom F# language, but if you know, give 'em some love as well;
+	:: IDK who created the custom F# language, but if you know, give 'em some love as well (this is credit for the previous version, current one has been created by me);
 	:: and, of course, you - for using some weird teen's pastel-coloured theme! Thank you all so much!
 	
 This project is absolutely open-source, just like N++ itself. Feel free to tamper with all this, however I'd prefer if you forked the repo. I really don't feel like fixing your mess.

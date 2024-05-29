@@ -21,11 +21,7 @@ This project is absolutely open-source, just like N++ itself. Feel free to tampe
 
 ### Contact
 
-If you need any help, feel free to explore the wiki: [Wiki](https://github.com/wiktornowicki/crystal_npp/wiki)
-
-**OR**
-
-Send me an e-mail: [Mail](mailto:wnowicki04_git@o2.pl)
+If you need any help, feel free to explore the wiki: [Wiki](https://github.com/aviumcaravan/crystal_npp/wiki)
 
 **OR**
 
